@@ -15,7 +15,7 @@ SAVE_FILE = os.path.join(BASE_DIR, "save.txt")
 class AutomationApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("GetEmployersReportFromControlCam")
+        self.master.title("ClickToPic")
         self.master.attributes("-topmost", True)
 
         tk.Label(master, text="Текст автоввода на 2 типе:").pack()
